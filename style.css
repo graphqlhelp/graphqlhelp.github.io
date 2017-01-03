@@ -21,8 +21,14 @@ a:hover {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 .header .logo {
-    margin: 0 auto;
+    display: block;
+    background: url(logo.svg) no-repeat;
+    background-size: 120px;
     width: 120px;
+    height: 120px;
+    overflow: hidden;
+    text-indent: -500px;
+    margin: 0 auto;
 }
 .header .title {
     font-size: 20px;
