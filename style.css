@@ -1,0 +1,81 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 14px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+a {
+    color: #df1696;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header {
+    background: #f7f7f7;
+    padding: 36px 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header .logo {
+    margin: 0 auto;
+    width: 120px;
+}
+.header .title {
+    font-size: 20px;
+    font-weight: 400;
+}
+.header .title span {
+    color: #df1696;
+    padding: 0 2px;
+}
+.navi {
+    margin: 20px 0 -10px;
+    padding: 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.navi li {
+    list-style: none;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    padding: 0 5px;
+}
+.navi li a {
+    display: block;
+    padding: 8px;
+}
+.main {
+    padding: 50px 20px;
+    max-width: 800px;
+}
+.footer {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    font-weight: 200;
+}
+.footer a {
+    color: #505050;
+}
+@media (max-width: 400px) {
+    body {
+        font-size: 13px;
+    }
+    .navi {
+        font-size: 14px;
+    }
+    .navi li {
+        padding: 0;
+    }
+}
